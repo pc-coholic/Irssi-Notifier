@@ -1,0 +1,13 @@
+** Work in progress ** it's not working at the moment!
+
+notifier.pl acts as a irssi-plugin for screen-users.
+
+As this script is detecting if your screen-session is currently attached you can choose from various possibilites what when to do.
+
+Recomended use:
+If screen is attached and local machine can be reached trough ssh-tunnel: Display message on desktop.
+If you are a ThinkBook-user: flash additionally the machines thinklight.
+
+If screen is attached and local machine cannot be reached through ssh-tunnel (you are connected from your cellphone, other machine, etc.): Do nothing.
+
+If screen is detached: Send notification to your Android-device via C2DM (Cloud 2 device messageing). (Please note: Android-App is beeing developed at the moment).
